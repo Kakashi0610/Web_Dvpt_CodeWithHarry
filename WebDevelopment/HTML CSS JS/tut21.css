@@ -1,0 +1,69 @@
+/* 
+tut21 : Allignment : Float and Clear
+
+*/
+
+section
+{
+    /* background-image: url(https://images.pexels.com/photos/1147124/pexels-photo-1147124.jpeg?cs=srgb&dl=pexels-matthias-cooper-1147124.jpg&fm=jpg);
+    background-repeat: no-repeat;   ITS ALL WORKING, to equal the screen, width = 1510px */
+
+    background-color: rgb(163, 215, 215);
+    width: 700px;
+    border: 5px solid rgb(9, 9, 91);
+    border-radius: 5px;
+    /* font-family: 'Pacifico', cursive; */
+
+    /* Used for Alligning the whole Container/Section in the center */
+    margin: auto;
+
+    /* Used for Alligning the section/container to desired position
+    The first px is for the UP/DOWN
+    The second px is for the LEFT/RIGHT */
+    margin: 200px 800px auto;
+
+    margin: auto;  /* over riding the left floating Container to Center again */
+
+}
+
+#fruit
+{
+    float: left;
+    width: 50%;
+    font-size: small;
+}
+
+#computer
+{
+    float: left;
+    width: 50%;
+    font-size: small;
+}
+
+#cars
+{
+    float: left;
+    width: 50%;
+    font-size: small;
+}
+
+
+.item
+{
+    border: 5px solid grey;
+    margin: 12px 12px 12px 12px;
+    padding: 40px 70px 1px 70px;
+    height: 800px ;
+    width: 650px ;
+    color: blue;
+    background-color: aqua;
+
+    /* Overriding Height */
+    height: 300px ;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+

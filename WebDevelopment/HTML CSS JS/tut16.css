@@ -1,0 +1,14 @@
+/* 
+tut16 in CSS
+*/
+
+p{
+    color: blueviolet;
+    font-style: italic;
+    background-color: pink;
+}
+
+.bglo
+{
+    border: 3px solid purple
+}

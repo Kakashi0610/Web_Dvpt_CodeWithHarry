@@ -1,0 +1,51 @@
+p
+{
+    /* Background ka alag */
+    background-color: red;
+    /* Adjusts the height and width of the background  */
+    height: 4cm;
+    width: 25cm;
+
+
+    /* Border ka alag */
+    border-width: .25cm;
+    border-style:groove;
+    border-color: yellow;
+    /* Gives curves to the edges of the border - Can be used till it looks like a capsule*/
+    border-radius: 30px;
+    border-top: .25cm solid green;
+    border-bottom: .25cm solid blue;
+    /* this and copied one creates tic tac like logo */
+    border-top-left-radius: 3cm;
+    border-bottom-right-radius: 3cm;
+
+
+    /* Text ka alag */
+    text-align: center;
+    line-height: 3.50cm;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-size: 200%;
+    height: 600px;
+    width: 800px;
+}
+
+#headertag
+{
+    height: 900px;
+    width:  900px;
+    background-image: url("http://theactivephotographer.com/wp-content/uploads/2012/07/TAP_Ad_300x300.jpg");
+    border: 13px solid black;
+    border-style: double;
+    text-align: center;
+    font-size:1.50cm;
+    line-height: 2cm;
+    background-repeat: no-repeat;  /* The background image doesnt repeat if its smaller than the border area  */
+    /* background-repeat: repeat-x;  will repeat the image in the x axis (if smaller than background length) 
+    background-repeat: repeat-y;  will repeat the image in the y axis (if smaller than background length) */
+
+    /* To Position the background in a desired way */
+    background-position:top center;
+    /* background-position:600px 90px; This can be used too (Too difficult ot analyze ) */
+
+
+}

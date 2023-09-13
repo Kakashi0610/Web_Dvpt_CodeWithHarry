@@ -1,0 +1,143 @@
+<!-- 
+Tut8 : Forms
+
+# input text - for creating a box for entering name, middle name, mothers name, surname,role.
+<div>Name: <input type="text" name = "my-name"></div>
+<br>
+<div>Role: <input type="text" name = "my-role"></div>
+<br>
+
+
+# input email- for inputting the email or combination of text, number and special characters.
+<div>EmailId: <input type="email" name="my-email"></div>
+<br>
+
+
+# input password - for typing a password which is hiddden to the users vision.
+<div>Password: <input type="password" name="my-password"></div>
+<br>
+
+
+# input date - for entering the date and year.
+<div>Birthdate and year: <input type="date" name="Birth-date"></div>
+<br>
+
+
+# input colorbox - for entering the color pallete (just for reference).
+<div>Color Box: <input type="color" name="Color"></div>
+<br>
+
+
+# input number - for entering the numbers and auto-selecting it froom the same drop box.
+<div>Experience: <input type="Number" name = "Experience in years"></div>
+<br>
+
+
+# input remote - for selecting between two or more options - like married-unmarried, male-female-others, etc.
+REMEMBER - if the name/ tag of the multipkle options is same, it will allow to select only one option.
+<div>Gender : Male<input type="radio" name="male">female<input type="radio" name="male"></div>
+<br>
+
+
+# image and link - for the terms and conditions.
+<img src="https://w7.pngwing.com/pngs/47/956/png-transparent-document-line-white-terms-and-conditions-white-text-area.png" alt="Image not found!">
+<br>
+
+
+# input checkbox- for checking the availability or eligibility of the candidate.
+<div><input type="checkbox" name="checkbox">YOU ACCEPT TO ALL TERMS AND POLICIES LISTED ABOVE</div>
+<br>
+
+
+# input reset - for reseting to the default empty parameters.
+Reset: <input type="reset" value="Reset Everything">
+
+
+# input submit - for submitting the entered data.
+Submit: <input type="submit" value="Submit Now">
+
+
+# textarea - to write a parahgraph about anything
+<h4>Write about yourself:</h4>
+<div><textarea name = "my text area" rows = "40" cols = "30"> </textarea></div>
+
+
+# label - for clicking on the name tag, and it automatically selecting the button or dropbox or functionality corresponding to it.
+REMEMBER - After Using label : (click on Name: )
+<label for="name"> Name:</label>
+<input type="Name" id = "name">
+
+# select - for selecting from the list of various items/values stored within the dropbox.
+<select name = "Mycar" id = "mycar"> </select>
+    <option value = "carname1">bmw </option>
+    <option value = "carname2">audi </option>
+    <option value = "carname3">ferrrari </option>
+
+# for using backkground color, in body tag :
+- <body style = "background-color: aqua;">
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body style = "background-color: aqua;" >
+    <h2>THIS IS FORM TUTORIAL</h2>
+    <form action="backend.php">
+        <div>Name: <input type="text" name = "my-name"></div>
+        <br>
+        <div>Role: <input type="text" name = "my-role"></div>
+        <br>
+        <div>EmailId: <input type="email" name="my-email"></div>
+        <br>
+        <div>Password: <input type="password" name="my-password"></div>
+        <br>
+        <div>Birthdate and year: <input type="date" name="Birth-date"></div>
+        <br>
+        <div>Color Box: <input type="color" name="Color"></div>
+        <br>
+        <div>Gender : Male<input type="radio" name="male">female<input type="radio" name="male"></div>
+        <br>
+        <div>Experience: <input type="Number" name = "Experience in years" id="Myexperience"></div>
+        <br>
+        <h4>Write about yourself:</h4>
+        <div><textarea name="My text area" rows="10" cols="30"></textarea></div>
+        <br>
+
+        <!-- Using label by <label></label> which helps to auto select the box or functionality, by clicking the name besides it-->
+
+        After Using label : (click on Name: )
+
+        <div> 
+            <label for="My-name">Name:</label>
+            <input type="Name" name="Myname" id="My-name">
+        </div> <br>
+
+        <label for="car">Select a car:</label>
+        <select name = "mycar" id = "car">
+            <option value="Lamborghini">Lamborghini</option>
+            <option value="Audi">Audi</option>
+            <option value="Ferrari">Ferrari</option>
+            <option value="BMW">BMW</option>
+            <option value="Buggati">Buggati</option>
+        </select>
+        <br>
+        <br>    
+
+        <div>
+            <img height="300" width = "300" src="https://w7.pngwing.com/pngs/47/956/png-transparent-document-line-white-terms-and-conditions-white-text-area.png" alt="Image not found!">
+        </div>
+        <br>
+        <div><input type="checkbox" name="checkbox">YOU ACCEPT TO ALL TERMS AND POLICIES LISTED ABOVE</div>
+        <br>
+        <div>Reset: <input type="reset" value="Reset Everything">
+        Submit: <input type="submit" value="Submit Now">
+        </div>
+        <br>
+        
+</body>
+</html>

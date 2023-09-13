@@ -1,0 +1,229 @@
+<!-- 
+tut7 : Lists and Tables
+
+# for creating an unordered list
+- <ul></ul>
+- this will sequentially create a list acc. to the user but WON'T SPECIFY the numbers.
+- Displays in form of bullets.
+
+# for creating an Ordered list :
+- <ol></ol>
+- This will create a sequential list and WILL mention numbers.
+- Displays in form of Numbers.
+
+# For creating a Table :
+- Create Table <table></table>
+
+  For Table Head
+- Create Table head <thead></thead>
+- Create Table Row(horizontal) <tr></tr>
+- Create Table Header <th></th>
+- Enter the table head criterias within the table head creating new <th> each time.
+
+  For Table Body
+- Create Table Body <tbody></tbody>
+- Create Table Row <tr></tr>
+- Create table details <td></td>
+- Whithin table details, fill the data according to the criteria in the Table Header.
+- Create new <tr> for each new person and each new criteeria.
+
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists and Tables</title>
+</head>
+
+<body>
+
+    <!-- creating an unordered list -->
+    <ul>
+        <li>This is the DEFAULT BULLET for first item of Unordered list</li>
+        <li>This is the DEFAULT BULLET for second item of the Unordered list</li>
+        <li>This is the DEFAULT BULLET for third item of the Unordered list</li>
+    </ul>
+
+    <!-- Creating an Ordered list -->
+    <ol>
+        <li>This is the DEFAULT BULLET for first item of the ORDRERD list</li>
+        <li>This is the DEFAULT BULLET for second item of the ORDRERD list</li>
+        <li>This is the DEFAULT BULLET for third item of the ORDRERD list</li>
+    </ol>
+
+    <!-- For types of Unordered lists bullets -->
+    <!-- DISC type bullet -->
+    <ul type="disc">
+        <li>This is the disc type bullet for Unordered lists</li>
+        <li>This is the disc type bullet for Unordered lists</li>
+        <li>This is the disc type bullet for Unordered lists</li>
+    </ul>
+
+    <!-- SQUARE type bullet -->
+    <ul type="square">
+        <li>This is the Square type bullet for the Unordered type of lists</li>
+        <li>This is the Square type bullet for the Unordered type of lists</li>
+        <li>This is the Square type bullet for the Unordered type of lists</li>
+    </ul>
+
+    <!-- CIRCLE type bullet -->
+    <ul type="circle">
+        <li>This is the circle type bullets in the Unordered lists</li>
+        <li>This is the circle type bullets in the Unordered lists</li>
+        <li>This is the circle type bullets in the Unordered lists</li>
+    </ul>
+
+    <!-- # For ORDERED LISTS types of Bullets -->
+    <!-- NUMERICAL type bullet -->
+    <ol type="1">
+        <li>This is the numbrical bullet for the Ordered list</li>
+        <li>This is the numbrical bullet for the Ordered list</li>
+        <li>This is the numbrical bullet for the Ordered list</li>
+    </ol>
+
+    <!-- LARGE ALPHABETICAL bullets -->
+    <ol type="A">
+        <li>This is the Larger Alphabetical bullet for the Ordered Lists</li>
+        <li>This is the Larger Alphabetical bullet for the Ordered Lists</li>
+        <li>This is the Larger Alphabetical bullet for the Ordered Lists</li>
+    </ol>
+
+    <!-- SMALLER ALPHABETICAL bullets -->
+    <ol type="a">
+        <li>This is the Smaller Alphabetical bullet for the Ordered List</li>
+        <li>This is the Smaller Alphabetical bullet for the Ordered List</li>
+        <li>This is the Smaller Alphabetical bullet for the Ordered List</li>
+    </ol>
+
+    <!-- LARGE ROMAN NUMBER bullets -->
+    <ol type="I">
+        <li>This are the larger Roman Number bullets for the Ordered Lists</li>
+        <li>This are the larger Roman Number bullets for the Ordered Lists</li>
+        <li>This are the larger Roman Number bullets for the Ordered Lists</li>
+    </ol>
+
+    <!-- SMALL ROOMAN NUMBER BULLETS -->
+    <ol type="i">
+        <li>This are the smaller Roman number bullets for the Ordered lists</li>
+        <li>This are the smaller Roman number bullets for the Ordered lists</li>
+        <li>This are the smaller Roman number bullets for the Ordered lists</li>
+    </ol>
+
+    <!-- # We can create an ordered list in an ordered list in an ordered list in an unordered list... and any random stuff  -->
+    <ol>
+        <li>This is the first Ordered list<ol>
+                <li>This is the second Ordered list<ol>
+                        <ul type="square">
+                            <li>This is the final Unordered list</li>
+                        </ul>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+    </ol>
+
+
+    <!-- Creating TABLE -->
+    <H3>TABLE</H3>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Number</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Manyaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</td>
+                <td>365373243453</td>
+                <td>300000000</td>
+            </tr>
+            <tr>
+                <td>Aniketaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</td>
+                <td>112345555555555555</td>
+                <td>10000000</td>
+            </tr>
+            <tr>
+                <td>Kakasaaaaaaaaaaaaaaaaaaaaaaaaaaaa</td>
+                <td>76564666666666666666666666666</td>
+                <td>1000000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Employee name</th>
+                <th>Employee Id</th>
+                <th>Employee Salary</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Aniket Manoj Shinde</td>
+                <td>62364926</td>
+                <td>3000000</td>
+            </tr>
+
+            <tr>
+                <td>Kakashi Sakumo Hatake</td>
+                <td>25465475</td>
+                <td>200000</td>
+            </tr>
+
+            <tr>
+                <td>Madara Uchiha</td>
+                <td>2434656767</td>
+                <td>70000</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
+
+<hr>
+
+
+<h3>This is the Final try of the table</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Animals</th>
+            <th>Eyes</th>
+            <th>legs</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Spider</td>
+            <td>4</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>Elephant</td>
+            <td>2</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Snake</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    </tbody>
+</table>

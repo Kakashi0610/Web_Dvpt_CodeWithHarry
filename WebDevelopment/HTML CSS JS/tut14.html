@@ -1,0 +1,64 @@
+<!-- 
+# tut14 : Introduction to CSS
+
+- The CSS setup which is done at the last has more presedence.
+- Yaani Jo LAst Me Kiya Woh Ayega.
+
+- USE !IMPORTANT FOR PRESEDENCE
+Example :
+<style>
+    h3{
+        color: red !important;
+    }
+</style>
+
+- Inline CSS has more importance than Internal CSS if done simultaneously (FOR HTML).
+- It will overwrite the existing CSS parameters in the Internal CSS with the new ones in INLINE CSS.
+- However, Internal CSS plays an important role and is a good practice to the Developers.
+- Internal CSS is easily distinguished than Inline CSS and is easy to access.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS tutorial</title>
+
+    <!-- this is INTERNAL CSS 
+    <style>
+        p {
+            color: darkgreen;
+            background-color: lightgreen;
+        }
+
+        h3 {
+            color: orange;
+            background-color: yellow
+        }
+    </style>  -->
+
+    <style>
+        h3{
+            color: red !important;
+        }
+    </style>
+
+    <!-- this is how you link a css file in html -->
+    <link rel="stylesheet" href="tut14.css">
+
+</head>
+
+<body>
+
+    <!-- this is INLINE CSS
+    <p style = "color: aqua;"></p>  -->
+
+    <h3>This is CSS tutorial</h3>
+    <p>This tut will give you everything to know about HTML/CSS</p>
+</body>
+
+</html>

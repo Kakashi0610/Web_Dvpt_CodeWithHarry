@@ -1,0 +1,57 @@
+<!-- 
+
+tut9 - Inline and Block elements
+
+Inline Elements/Tags - Inline elements/tags are the type of elemnts/tags which can be written in a seperate line using two or more tags, 
+but only allocate the space thatis assigned. They do not take over the entire block.
+
+Example : 
+<span>this is first span line</span>
+<span>this is second span line</span>
+
+output :
+this is first span line this is second span line
+
+Block Elements/Tags - Block elements/tags are the type of tags which allocate the whole block of line even if the value is not 
+parallely assigned by the user. Sigle tag takes up full block even if another line is written besides it.
+
+Example :
+<p>this is a parah</p> <p>This is another parah</p>
+
+output :
+this is a parah 
+This is another parah
+
+# following are the INLINE TAGS - span, img, em, a.
+# following are the BLOCK TAGS - ul, ol, p, h1.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline and Block elements</title>
+</head>
+<body>
+
+    <!-- NORMAL PARAHGRAPH
+    Here the parah is printed one below the other
+    Takes full line -->
+    <p style="border: 2px solid red;">this is a parah</p>
+    <p style="border: 2px solid purple;">this is another parah</p>
+    <br>
+
+    <!-- SPAN PARAHGRAPH
+    But here the span is printed besides eachother
+    Takes the space that is allocated or assigned 
+    ye jitni apni jagah assigned hain utni h -->
+    <span style = "border: 2px solid red;">This is a span </span>
+    <span style = "border: 2px solid blue;">This is another span</span>
+    <br> <br>
+    <span style = "background-color: aqua;">Aniket is a good boy</span>
+
+</body>
+</html>

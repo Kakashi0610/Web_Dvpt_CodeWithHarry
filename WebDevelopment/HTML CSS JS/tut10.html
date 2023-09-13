@@ -1,0 +1,59 @@
+<!-- 
+tut10 - Ids and Classes
+
+id is the identifier (cannot be used more than once).
+class name can be used multiple times.
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ids and Classes</title>
+</head>
+<body>
+    <h3>Ids and Classes Tutorial</h3>
+    <div id = "mainBox" class = "redBg">This is main box</div>
+    <br>
+
+    <!-- EMMET shorcuts -->
+    <!-- . is used for class and # is used for id in any tag -->
+    <!-- Use span/div/p.anyname converts to <span/div/p id = "anyname">  -->
+
+    <span class="spanclass"> span class using .</span>
+    <span id="spanid"span id using #>span id using #</span>
+    <br>
+
+    <!-- We can create such id classes w multiple tags -->
+    <div class="blueg">.classname using div</div>
+    <p class="redg">.classname using p</p>
+    <h4 class="redg">.classname using h1</h4>
+    <em class="redg">.classname using em</em>
+    <br>
+
+    <!-- We cannnot assign more than one idto the tags -->
+
+    <!-- But we CAN assign numerous class names to the elements
+    Just use . between each class name  -->
+    
+    <span class="spanclass redbg bluebg blackbg">.Assigning numerous class names using . after each class</span>
+    <br>
+
+    <!-- Emmet takes <div></div> tag as Default -->
+    <!-- If we put .1234.5678.34566 , it wil retun as <div class = "1234 5678 34566"></div> -->
+
+    <div class="aniket MANOJ SHINDE"> DIV IS DEFAULT FOR EMMET</div>
+    <br>
+
+    <!-- We can create multiple elements classes by simply muktiplying * -->
+
+    <div class="aniket kakashi madara">First element class</div>
+    <div class="aniket kakashi madara">second element class</div>
+    <div class="aniket kakashi madara">Third element class</div>
+    <br>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!-- 
+tut17 : Fonts and Related Properties
+
+
+# Web-safe fonts : Types of the fonts which are pre installed in the Operating System. Can run without any error in font.
+
+# Web-fonts : type of Fonts which need to be installed/imported by the browser. May cause error if OS doesn't support it.
+
+# Stacked-Fonts : It is the collection of different font styles, which can act as an alternative if some fonts can't be 
+available by the Operating System.
+
+Example :
+p{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+
+# To add Web-fonts :
+- search Google Fonts, choose any font you wish to write the data in, and scroll down to select a font by clicking on + sign.
+- Once you click on + , the font is added to the list, you can check it on right most corner window tab besides settings.
+- Copy the link for the Html and paste it below the title in the header section. Then copy the CSS fontstyle and paste it in 
+  Internal or External CSS element property like parah or div or span or header.
+- These can be auto-tagg links in both HTML and CSS, so we dont need to open any tags in either fields.
+
+
+# TYPES OF FONT PARAMETERS TO SET :
+
+# Type of font family taken by a web browser :
+font-family: 'Montserrat', sans-serif;
+
+# Another type of Font Style taken by the web browser :
+font-family: 'Reem Kufi Ink', sans-serif;
+
+# Used to incerease the size of the Font by Percent (100% means normal font size) :
+font-size: 120%;
+
+# To increase the font size by cm :
+font-size: 60px;
+
+# To increse the line height, leaving font size as it is :
+line-height: 3cm;
+
+# Font Weight to keep the font style bold bolder and more... :
+font-weight: bold;
+
+# To change the font style into Italic and 2-3 more wewird types :  
+font-style: italic;
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts and Related Properties</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="tut17.css">
+</head>
+<body>
+    <h2>Fonts and Related Propereties.</h2>
+    <p id = "para0">Lets play with Fonts. It is  very exciting !</p>
+
+    <span>
+        This is a span in another font.
+    </span>
+
+    <p id = "para1">This is a parahgraph1 with fontsize 6px </p>
+    <p id = "para2">This is a parahgraph2 with font size 150% and has a line height of 8cm </p>
+    <p id = "para3">This is a parahgraph3 with font weight BOLD</p>
+    <p id = "para4">This is a parahgraph4 with font style Italic</p>
+    <p id = "para5">This is a parahgraph5 </p>
+    <p id = "para6">This is a parahgraph6 </p>
+    <p id = "para7">This is a parahgraph7 </p>
+    <p id = "para8">This is a parahgraph8 </p>
+    <p id = "para9">This is a parahgraph9 </p>
+</body>
+</html>

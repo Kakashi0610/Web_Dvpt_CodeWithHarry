@@ -1,0 +1,44 @@
+/* 
+tut20 : Box Models
+*/
+
+p{
+    color: aqua;
+}
+
+.container1, .container2, .container3
+{
+    /* Padding is used to Enlarge the size of background andf shrink the text inside */
+    /* each container class enlarges according to the size of the padding */
+    /* padding-top: 39px;
+    padding-left: 155px;
+    padding-bottom: 7px;
+    padding-right: 7px; */
+
+    /* we can also set padding / margin of all 4 directions in a single line :  */
+    /* Top Right Bottom Left */
+    /* padding: 55px 15px 15px 15px; */
+
+    /* (Top/Bottom)  (Left Right)  only one parameter can change both values si,ultaneously 
+    padding: 1050cm 1050cm;*/
+
+    background-color: blueviolet;
+    border: 20px solid pink;
+
+    padding-top: 30px;
+    padding-bottom: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 55px 80px 5px 80px;
+
+    border-radius: 25px; /* for the curve on the edges */
+
+    height: 200px; 
+    width: 700px;
+}
+
+/* Here the inside part changes including the padding, but the Overall size (width and height) remains constant */
+
+*{
+    box-sizing: border-box;   /*  Used to control the dimensions of the Box models  */
+}

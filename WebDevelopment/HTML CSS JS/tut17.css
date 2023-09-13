@@ -1,0 +1,31 @@
+#para0
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+span
+{
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-size: 120%;
+}
+
+#para1
+{
+    font-size: 60px;
+}
+
+#para2
+{
+    font-size: 150%;
+    line-height: 3cm; /* Line height gets divided into upper half and bottom half- tophalf 1.5cm and bottomhalf 1.5cm */
+}
+
+#para3
+{
+    font-weight: bold;
+}
+
+#para4
+{
+    font-style: italic;
+}

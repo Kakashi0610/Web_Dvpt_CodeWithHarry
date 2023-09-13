@@ -1,0 +1,209 @@
+<!-- 
+tut 12 - Semantic Tags in HTML
+
+Semantic Tags - Meaning of Semantic tag is - meaning given to the data and tags used.
+
+The blueprint of this webpage is :
+
+HEAD
+title
+/title
+/HEAD
+
+
+BODY
+header
+/header
+nav
+/nav
+
+section (collection of articles)
+article 1
+fig
+/fig
+figcaption
+/figcaption
+parah
+/parah
+
+article2
+fig
+/fig
+figcaption
+/figcaption
+parah
+/parah
+/section
+
+details
+/details
+summary
+/summary
+
+
+section (collection of articles)
+article 3
+fig
+/fig
+figcaption
+/figcaption
+parah
+/parah
+
+article 4
+fig
+/fig
+figcaption
+/figcaption
+parah
+/parah
+/section
+
+details
+/details
+summary
+/summary
+
+footer
+div
+/div
+nav
+/nav
+
+/BODY
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Tags</title>
+</head>
+
+<body>
+    <header style="text-align:center;">
+        <h1>Types of Dog Breeds</h1>
+        <nav>
+            <a href="https://www.youtube.com/c/CodeWithHarry/playlists">Home</a> |
+            <a href="https://www.youtube.com/c/CodeWithHarry/playlists">About</a> |
+            <a href="https://www.youtube.com/c/CodeWithHarry/playlists">Contact Us</a> |
+            <a href="https://www.youtube.com/c/CodeWithHarry/playlists">Details</a> |
+            <a href="https://www.youtube.com/c/CodeWithHarry/playlists">Info</a> |
+        </nav>
+    </header>
+    <hr>
+
+    <main>
+        <section>
+            <h2>Dangerous dog breeds</h2>
+            <article>
+                <h4>American bandogge</h4>
+                <figure>
+                    <img style="text-align:center;" height="800" width="1400"
+                        src="https://www.dogbreedinfo.com/images30/AmericanBandoggeMastiffSlovakLinesMastinoNapoletanoPitbullTypeAK473YearsOld2.jpg"
+                        alt="Image Not Found!">
+                    <figcaption style="text-align:center;">Images of American Bandogge</figcaption>
+                </figure>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ipsam earum iusto minus omnis
+                    esse harum asperiores sunt necessitatibus et, incidunt sit officia rerum blanditiis libero nulla
+                    ipsum maiores sequi.
+                    Ipsam voluptatem laborum blanditiis sapiente necessitatibus exercitationem nisi accusamus iure
+                    tenetur vitae, eos incidunt impedit corrupti iste id optio? Rerum nulla nesciunt explicabo debitis
+                    quas dicta doloremque nihil doloribus voluptatem.
+                    Id deserunt soluta quod aperiam expedita commodi est illum minus, iste inventore, adipisci possimus
+                    impedit mollitia autem ullam cumque maiores unde voluptatibus officia labore suscipit accusamus nisi
+                    dolorem? Corporis, quia! Sunt, perspiciatis! ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorum porro quaerat quisquam ipsam minus a earum labore, sunt autem reprehenderit recusandae fugit
+                    ab voluptate eaque laborum odio inventore temporibus ex?.
+                </p>
+            </article>
+
+            <article>
+                <h4> Cane Corso </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. In asperiores mollitia, aliquam culpa
+                    saepe doloremque sint quo, voluptatem cum sunt rerum unde corporis, est omnis molestiae temporibus
+                    tempore eius quibusdam!
+                    Rerum maiores, harum, quidem aspernatur doloremque commodi repudiandae saepe fuga eius quos, ipsa
+                    magni optio reprehenderit voluptatem enim quaerat accusamus id tempore dicta alias? Officiis tempore
+                    eveniet nihil et nostrum.
+                    Dolorum error optio adipisci dolorem fugiat, doloremque repellat perspiciatis laboriosam asperiores,
+                    sequi minus est numquam dicta iusto, deleniti voluptatum. Ad quod nam itaque sit odit laudantium
+                    quae, voluptatem debitis ea!
+                </p>
+            </article>
+        </section>
+
+        <details>
+            <summary>This Article is written by :</summary>
+            <p>Aniket Manoj Shinde</p>
+            <p>On 6th Oct 2000</p>
+        </details>
+
+        <hr>
+
+        <section>
+            <h2>Playful dog breeds</h2>
+            <article>
+                <h4>Siberian Husky</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ipsam earum iusto minus omnis
+                    esse harum asperiores sunt necessitatibus et, incidunt sit officia rerum blanditiis libero nulla
+                    ipsum maiores sequi.
+                    Ipsam voluptatem laborum blanditiis sapiente necessitatibus exercitationem nisi accusamus iure
+                    tenetur vitae, eos incidunt impedit corrupti iste id optio? Rerum nulla nesciunt explicabo debitis
+                    quas dicta doloremque nihil doloribus voluptatem.
+                </p>
+            </article>
+
+            <article>
+                <h4> Golden retriever</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. In asperiores mollitia, aliquam culpa
+                    saepe doloremque sint quo, voluptatem cum sunt rerum unde corporis, est omnis molestiae temporibus
+                    tempore eius quibusdam!
+                    Rerum maiores, harum, quidem aspernatur doloremque commodi repudiandae saepe fuga eius quos, ipsa
+                    magni optio reprehenderit voluptatem enim quaerat accusamus id tempore dicta alias? Officiis tempore
+                    eveniet nihil et nostrum.
+                </p>
+            </article>
+        </section>
+
+        <details>
+            <summary>This Article is written by : </summary>
+            <p>Atul Manoj Shinde</p>
+            <p>On 29th March 1997</p>
+        </details>
+
+        <footer>
+            <hr>
+            <div style="text-align:center;">
+                <p>Created by Shinde Family</p>
+                <a href="https://www.youtube.com/">Facebook</a> |
+                <a href="https://www.youtube.com/">Twitter</a> |
+                <a href="https://www.youtube.com/">Instagram</a> |
+                <a href="https://www.youtube.com/">Github</a>
+            </div>
+        </footer>
+    </main>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

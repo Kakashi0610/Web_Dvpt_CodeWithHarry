@@ -1,0 +1,30 @@
+/* 
+tut18 : Colors in CSS 
+*/
+
+h2
+{
+    font-family:'EB Garamond', serif ;
+    font-size: 2cm;
+    font-weight: bolder;
+    line-height:4cm;
+    color: blue;
+    background-color:aqua;
+    border: 4px solid blue;  /* for the border and color use this syntax */
+    text-align: center;
+}
+
+#color0
+{
+    color: aqua;  /* Color by name */
+}
+
+.color1
+{
+    color:rgb(255, 117, 5); /* Color by rbg */
+}
+
+.color2
+{
+    color: rgb(4, 249, 49)   /* Color by hex number using # */
+}

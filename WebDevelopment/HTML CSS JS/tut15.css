@@ -1,0 +1,51 @@
+/* 
+tut15 of CSS
+Comments are given using ctrl + forwardslash /  */
+
+/* Id Selector */
+#parah2
+{
+    color: red;
+    background-color: yellow;
+}
+
+/* class Selector */
+.parah4
+{
+    color:lightgreen;
+    background-color: darkgreen;
+}
+
+/* Class multiple name selector */
+.numberofparah3
+{
+    color:white;
+    background-color: black;
+}
+
+/* Element Selector */
+span
+{
+    color: rgb(96, 21, 172);
+    background-color:pink;
+}
+
+/* Grouping Selector */
+footer,span
+{
+    background: grey;
+}
+
+/* Grouping Selector using Class names */
+.spanname1, .footername1
+{
+    border: 2px solid black;
+}
+
+/* Grouping Selector using Id */
+#pgraph1, #pgraph2
+{
+    color: brown;
+    background-color:yellow ;
+    border: 5px solid brown;
+}

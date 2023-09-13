@@ -1,0 +1,97 @@
+<!-- 
+tut5 : Headings, Paraghraphs and Emmets.
+
+USE Alt + z for rearraging data which exceeds the display limit
+
+# for adding the heading, use the <h1></h1> tag : 
+- We can create heading tags simultaneously using - h * (num of req. headings) 
+- We can add upto 6 headings ie till <h6></h6>.
+- The size of the heading decreases as the number of heading tags increases.
+- Adding a seventh heading will create a default string, not a heading.
+- However, we can add multiple <h1></h1> heading tags.
+- Heading tags are not for adjusting the font size, but for declaring the HEADING in the webpage.
+
+# for adding parahgraphs, use the <p></p> tag :
+- We can type numerous number of paragraphs.
+- Size DOESNT decrease with increase in parahgraphs.
+- we can create number of parah in one instance by - p * (num of req. parahs)
+
+# for emmet, use the Lorem keyword :
+- to enable a default random parahgraph for exapmleistic representation of parah in a webpage or website.
+
+# for applying bold font to a string in a parah, use <strong></strong> :
+- This will turn the string into Bold font.
+
+# for applying the Italic font to a string in a parah, use embedded tags <em></em> :
+- This will turn the string into Italic font.
+
+# for 'break' tag, use the <br> :
+- It is a self closing tag.
+- This will allow us to break the line after the sentence and new string will start from the NEXT line.
+- We can use multiple break tags in one line w.r.t. the lines we want to skip.
+- USING A BREAK TAG IS NOT A GOOD PRACTICE IN HTML.
+
+# for hr tag, use <hr> :
+- It is a self closing tag.
+- It is used to print a horizontal line in a full screen view, skipping the previous line of the parah or heading or a string.
+
+# For using the bold italic and Underlined font directly by <b></b> <i></i> <u></u> :
+- can access the bold italic and Underlined fonts directly, instead of strong and emphasized.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headings, Parahgraphs and Emmets</title>
+</head>
+<body>
+
+    <!-- these are the multiple heading tags -->
+    <h1> This is Kakashi</h1>
+    <h1> This is Kakashi</h1>
+    <h2> This is the second heading</h2>
+    <h3> This is the third heading</h3>
+    <h4> This is the forth heading</h4>
+    <h5> This is the fifth heading</h5>
+    <h5> This is the fifth heading</h5>
+    <h6> This is the sixth heading</h6>
+
+    <!-- these are trhe parahgraphs tags -->
+    <p> I am Aniket Manoj Shinde. I am an Extc/software Engineer. I love programming. </p>
+    <p> I am Kakashi Sakumo Hatake. I am a Shinobi. I was in ANBU. </p>
+
+    <!-- emmet is named as Lorem, which is used to set the default words just for the representation of how 
+    the webpage/website would look with a default set of parah or lines. -->
+    <p><em>This is Italic/Emphasized.</em>   <strong> This is Bold/ Strong.</strong> <strong><em>  This is Bold/Strong as well as Italic/Emphasized.</em></strong>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum alias consectetur laborum nihil temporibus? Illo quisquam asperiores eveniet nam. Doloremque eos ut adipisci aut, obcaecati inventore repellendus neque. Magnam, dolorem?</p>
+
+    <!-- By using the multiple heading method - h*(num of req. headings) -->
+    <h1>Heading1</h>
+    <h2>Heading2</h2>
+    <h2>Heading2</h2>
+    <h3>Heading3</h3>
+    <h4>Heading4</h4>
+
+    <!-- By using the multiple parah method - p*(num of req. parahs) -->
+    <p>parah1</p>
+    <p>parah2</p>
+    <p>parah3</p>
+    <p>parah4</p>
+    <p>parah5</p>
+
+    <!-- By using the break tag in the parah using <br> -->
+    <p>This is one sentence.<br> This is another sentence. <br>This is the third sentence. </p>
+
+    <!-- By using the <hr> tag for the horizontal lines : -->
+    <p>This is a parahgraph writing. In tis we need to write a default parah for the use. This parah is random in nature. <hr>
+    The multiple uses of parahs are listed below in the next line. <hr></p>
+
+    <!-- Using the bold italic and Underlined font directly by <b></b> <i></i> <u></u> -->
+    <p><b>bold is here.</b> <i>Italic is here.</i> <u>Underlined is here.</u></p>
+    <p><b><i><u> BOLD , ITALIC and UNDEERLINED is here. </u></i></b></p>
+
+</body>
+</html>
+
